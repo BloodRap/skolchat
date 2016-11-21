@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+        padding: 0;
+}
+body {
+    display: flex;
+}
+.leftSide {
+    width: 80vw;
+}
+.rightSide {
+    width: 20vw;
+    height: 1000px;
+}
+.rightTop {
+    height: 19vh;
+    display: flex;
+    flex: row;
+    border: solid 1px #cdcdcd;
+}
+.user {
+    padding-top: 10px;
+    width: 140px;
+    text-align: center;
+}
+.avatar {
+    padding-left: 10px;
+}
+.settings {
+    padding-top: 15px;
+}
+.logout {
+    font: bold 18px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 10px 25px 10px 25px;
+    border: 1px outset #585858;
+}
+.upload {
+    margin-top: 85px;
+}
+input {
+}
+#ChatMessages {
+    position: absolute;
+    height: 91%;
+    width: 80%;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 50px;
+    padding-left: 10px;
+    border: 1px solid #cdcdcd;
+    overflow: auto;
+}
+.rightBottom {
+    height: 78vh;
+    border: solid 1px #cdcdcd;
+    padding: 15px;
+    font-size: 18px;
+    overflow: auto;
+}
+.OnlineUsersText {
+    background-color: #cdcdcd;
+    height: 3vh;
+    text-align: center;
+}
+.onlineUsersContainer {
+    display: flex;
+    flex: row;
+}
+.onlineUsersContainer a {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#ChatText {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 9%;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #cdcdcd;
+    resize: none;
+}
+#ChatText:focus {
+    outline: none;
+}
+.mainSpan {
+    display: flex;
+    width: 99%;
+    margin-bottom: 10px;
+    border: 0.5px solid #cdcdcd;
+    border-radius: 3px;
+}
+.mainSpan:nth-child(odd) {
+    background-color: #fff;
+}
+.mainSpan:nth-child(even) {
+    background-color: #efefef;
+}
+.UserImage {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.nameText {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.UserName {
+    color: #3b3b3b;
+    font-weight: 800;
+}
+.UserName:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+
+
+
+
