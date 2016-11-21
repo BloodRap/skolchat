@@ -47,7 +47,7 @@
                 setInterval(function() { //refreshar varje 500ms/0.5sec
                     $("#ChatMessages").load("DisplayMessages.php");
                     $("#rightBottom").load("OnlineUsers.php");
-                }, 500);
+                }, 300);
                 /*
                 setInterval(function() {
                     var textarea = document.getElementById('ChatMessages');
