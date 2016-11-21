@@ -37,9 +37,9 @@
                             success: function() {
                                 $("#ChatMessages").load("DisplayMessages.php");
                                 $("#ChatText").val("");
-                                $("#ChatMessages").animate({
-                                    scrollTop: $("#ChatMessages")[0].scrollHeight - $("#ChatMessages").height()
-                                }, 100);
+                                setTimeout(function(){
+                                var textarea = document.getElementById('ChatMessages');
+                                textarea.scrollTop = textarea.scrollHeight;}, 50);
                             }
                         });
                     }
