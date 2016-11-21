@@ -48,11 +48,6 @@
                     $("#ChatMessages").load("DisplayMessages.php");
                     $("#rightBottom").load("OnlineUsers.php");
                 }, 300);
-                /*
-                setInterval(function() {
-                    var textarea = document.getElementById('ChatMessages');
-                    textarea.scrollTop = textarea.scrollHeight;
-                }, 100); */
             });
 
         </script>
